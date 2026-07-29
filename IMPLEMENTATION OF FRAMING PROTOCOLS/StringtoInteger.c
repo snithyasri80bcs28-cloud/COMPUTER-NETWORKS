@@ -35,3 +35,7 @@ int myAtoi(const char *s) {
 
     return (int)(sign * result);
 }
+/*
+    " 98hello" -> ignore spaces -> read digits 98 -> result = 98
+    "+45abc23" -> sign + -> read digits 45 -> result = 45
+    */
